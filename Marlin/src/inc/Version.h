@@ -38,20 +38,20 @@
   /**
    * Marlin release version identifier
    */
-  #define SHORT_BUILD_VERSION UNIFIED_VERSION
+  #define SHORT_BUILD_VERSION "bugfix-2.0.x"
 
   /**
    * Verbose version identifier which should contain a reference to the location
    * from where the binary was downloaded or the source code was compiled.
    */
-  #define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION
+  #define DETAILED_BUILD_VERSION SHORT_BUILD_VERSION " (Github)"
 
   /**
    * The STRING_DISTRIBUTION_DATE represents when the binary file was built,
    * here we define this default string as the date where the latest release
    * version was tagged.
    */
-  #define STRING_DISTRIBUTION_DATE ""
+  #define STRING_DISTRIBUTION_DATE "2018-01-20"
 
   /**
    * Required minimum Configuration.h and Configuration_adv.h file versions.
@@ -73,7 +73,7 @@
   /**
    * Defines a generic printer name to be output to the LCD after booting Marlin.
    */
-  #define MACHINE_NAME ""
+  #define MACHINE_NAME "3D Printer"
 
   /**
    * The SOURCE_CODE_URL is the location where users will find the Marlin Source
@@ -81,17 +81,17 @@
    * has a distinct Github fork— the Source Code URL should just be the main
    * Marlin repository.
    */
-  #define SOURCE_CODE_URL ""
+  #define SOURCE_CODE_URL "https://github.com/MarlinFirmware/Marlin"
 
   /**
    * Default generic printer UUID.
    */
-  #define DEFAULT_MACHINE_UUID ""
+  #define DEFAULT_MACHINE_UUID "cede2a2f-41a2-4748-9b12-c55c62f367ff"
 
   /**
    * The WEBSITE_URL is the location where users can get more information such as
    * documentation about a specific Marlin release.
    */
-  #define WEBSITE_URL "TH3DStudio.com"
+  #define WEBSITE_URL "http://marlinfw.org"
 
 #endif // USE_AUTOMATIC_VERSIONING
