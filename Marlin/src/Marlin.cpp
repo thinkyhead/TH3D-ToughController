@@ -1096,6 +1096,10 @@ void setup() {
     watchdog_init();          // Reinit watchdog after HAL_get_reset_source call
   #endif
 
+  #if ENABLED(SDSUPPORT)
+    card.initsd();
+  #endif
+
   #if ENABLED(EXTERNAL_CLOSED_LOOP_CONTROLLER)
     init_closedloop();
   #endif
